@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+static/css/style.css
+templates/index.html
+uas_dip.egg-info/PKG-INFO
+uas_dip.egg-info/SOURCES.txt
+uas_dip.egg-info/dependency_links.txt
+uas_dip.egg-info/requires.txt
+uas_dip.egg-info/top_level.txt
