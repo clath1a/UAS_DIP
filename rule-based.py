@@ -5,7 +5,6 @@ import os
 import pandas as pd
 from skimage.feature import graycomatrix, graycoprops
 from skimage.measure import label, regionprops
-from google.colab import drive
 import matplotlib.pyplot as plt
 import seaborn as sns
 
