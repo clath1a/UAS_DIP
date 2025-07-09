@@ -6,3 +6,4 @@ joblib
 scikit-image
 werkzeug
 tensorflow
+gunicorn
