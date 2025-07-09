@@ -1,0 +1,41 @@
+# --- Lingkungan Virtual ---
+# Abaikan folder lingkungan virtual, karena setiap developer akan membuatnya sendiri.
+venv/
+.venv/
+env/
+.env
+
+# --- File Cache Python ---
+# Folder dan file ini dibuat otomatis oleh Python dan tidak perlu disimpan.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- File Upload Pengguna ---
+# Sangat PENTING: Jangan unggah file yang di-upload oleh pengguna.
+# Hanya folder kosongnya yang perlu ada di repo.
+static/uploads/*
+# Baris di bawah ini adalah opsional, untuk memastikan folder 'uploads' tetap ada
+# tapi isinya diabaikan. Buat file kosong bernama .gitkeep di dalamnya.
+!static/uploads/.gitkeep
+
+# --- File Build dan Distribusi Python ---
+# Dibuat saat mem-package aplikasi, tidak perlu disimpan di Git.
+dist/
+build/
+*.egg-info/
+*.egg
+
+# --- File Spesifik Sistem Operasi ---
+# File sampah dari macOS, Windows, dan Linux.
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- File Editor VS Code ---
+# Abaikan pengaturan lokal editor Anda.
+.vscode/
+
+# --- File Log ---
+*.log
